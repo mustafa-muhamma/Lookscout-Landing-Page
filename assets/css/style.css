@@ -144,7 +144,7 @@ h4 {
 
 .header__span {
     display: block;
-    max-width: 30%;
+    width: 30%;
     margin: auto;
     padding-bottom: .5rem;
     font-weight: 600;
@@ -468,15 +468,19 @@ h4 {
     }
 
     /* footer */
-    .footer__header{
+    .footer__header {
         width: 70%;
     }
-    
-    .footer__column{
+
+    .footer__column {
         width: 33%;
     }
-    .footer__header p{
+
+    .footer__header p {
         width: 100%;
+    }
+     .footer span {
+        width: 20rem;
     }
 
 }
@@ -497,7 +501,13 @@ h4 {
     .header__title h1,
     .header__title .header__span {
         padding: 1rem 0;
+        /* width: 100%; */
 
+
+    }
+
+    .header__span {
+        width: 50%;
     }
 
     .subscribtion__form button,
@@ -533,19 +543,24 @@ h4 {
     .sebscribtion:nth-of-type(2) .navbar__buttons a {
         width: 100%;
     }
+
     /* footer */
-    .footer__header button{
+    .footer__header button {
         width: 5.5rem;
         position: absolute;
         border-bottom-left-radius: 0px;
         border-top-left-radius: 0px;
     }
-    .footer__header input{
+
+    .footer__header input {
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
     }
-     .footer__column{
+
+    .footer__column {
         width: 50%;
     }
+
+   
 
 }
