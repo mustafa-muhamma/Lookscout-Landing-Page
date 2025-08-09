@@ -144,8 +144,7 @@ h4 {
 
 .header__span {
     display: block;
-    width: 30%;
-    margin: auto;
+    text-align: center;
     padding-bottom: .5rem;
     font-weight: 600;
     font-size: .875rem;
@@ -335,9 +334,6 @@ h4 {
 }
 
 .sebscribtion:nth-of-type(2) .header__span {
-    margin: auto;
-    display: block;
-    width: 30%;
     color: var(--white-color);
 }
 
@@ -390,8 +386,7 @@ h4 {
     color: var(--content-color);
     display: block;
     padding: 4rem 0;
-    width: 30%;
-    margin: auto;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -479,9 +474,6 @@ h4 {
     .footer__header p {
         width: 100%;
     }
-     .footer span {
-        width: 20rem;
-    }
 
 }
 
@@ -501,13 +493,6 @@ h4 {
     .header__title h1,
     .header__title .header__span {
         padding: 1rem 0;
-        /* width: 100%; */
-
-
-    }
-
-    .header__span {
-        width: 50%;
     }
 
     .subscribtion__form button,
@@ -560,7 +545,6 @@ h4 {
     .footer__column {
         width: 50%;
     }
-
-   
-
 }
+
+/* some contents are missing across figma's design so i added it myself to make sure the user experience is same  */
