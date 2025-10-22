@@ -346,6 +346,25 @@ h4 {
     background-color: var(--white-color);
 }
 
+.notify-button {
+    background-color: #0d6efd;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.notify-button:hover {
+    background-color: #0b5ed7;
+}
+
+
 /* footer */
 
 .footer {
@@ -479,7 +498,8 @@ h4 {
     .footer__header p {
         width: 100%;
     }
-     .footer span {
+
+    .footer span {
         width: 20rem;
     }
 
@@ -561,6 +581,6 @@ h4 {
         width: 50%;
     }
 
-   
+
 
 }

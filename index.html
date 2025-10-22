@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="manifest" href="/manifest_and_icons/manifest.json">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Document</title>
 </head>
@@ -208,41 +208,49 @@
                         <button>Submit</button>
                     </div>
                 </div>
+                <div style="text-align:center; margin: 40px 0;">
+                    <button id="notifyBtn" class="notify-button">Show Notification</button>
+                </div>
+
                 <!-- <div class="footer__columns"> -->
-                    <div class="footer__column">
-                        <h5 class="footer__title">Why Choose Us?</h5>
-                        <ul class="footer__links">
-                            <li><a href="#">Scale</a></li>
-                            <li><a href="#">Solution</a></li>
-                            <li><a href="#">Our Competition</a></li>
-                            <li><a href="#">Channels</a></li>
-                            <li><a href="#">Evants</a></li>
-                            <li><a href="#">Watch The Demo</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <h5 class="footer__title">Company</h5>
-                        <ul class="footer__links">
-                            <li><a href="#">Leadership</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Media Kit</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__column">
-                        <h5 class="footer__title">Resources</h5>
-                        <ul class="footer__links">
-                            <li><a href="#">Community</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#">Partners</a></li>
-                        </ul>
-                    </div>
+                <div class="footer__column">
+                    <h5 class="footer__title">Why Choose Us?</h5>
+                    <ul class="footer__links">
+                        <li><a href="#">Scale</a></li>
+                        <li><a href="#">Solution</a></li>
+                        <li><a href="#">Our Competition</a></li>
+                        <li><a href="#">Channels</a></li>
+                        <li><a href="#">Evants</a></li>
+                        <li><a href="#">Watch The Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h5 class="footer__title">Company</h5>
+                    <ul class="footer__links">
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h5 class="footer__title">Resources</h5>
+                    <ul class="footer__links">
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
                 <!-- </div> -->
             </div>
             <span>© 2023 Lookscout. All Rights Reserved.</span>
         </div>
     </footer>
+
+    <!-- Your service worker registration -->
+    <script src="/script.js"></script>
+
 </body>
 
 </html>
